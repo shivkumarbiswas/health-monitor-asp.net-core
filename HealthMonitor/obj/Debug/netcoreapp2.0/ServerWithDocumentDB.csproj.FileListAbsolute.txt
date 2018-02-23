@@ -1,0 +1,11 @@
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\bin\Debug\netcoreapp2.0\ServerWithDocumentDB.deps.json
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\bin\Debug\netcoreapp2.0\ServerWithDocumentDB.runtimeconfig.json
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\bin\Debug\netcoreapp2.0\ServerWithDocumentDB.runtimeconfig.dev.json
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\bin\Debug\netcoreapp2.0\ServerWithDocumentDB.dll
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\obj\Debug\netcoreapp2.0\ServerWithDocumentDB.csprojResolveAssemblyReference.cache
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\obj\Debug\netcoreapp2.0\ServerWithDocumentDB.csproj.CoreCompileInputs.cache
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\obj\Debug\netcoreapp2.0\ServerWithDocumentDB.AssemblyInfoInputs.cache
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\obj\Debug\netcoreapp2.0\ServerWithDocumentDB.AssemblyInfo.cs
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\bin\Debug\netcoreapp2.0\ServerWithDocumentDB.pdb
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\obj\Debug\netcoreapp2.0\ServerWithDocumentDB.dll
+C:\Projects\ServerWithDocumentDB\ServerWithDocumentDB\obj\Debug\netcoreapp2.0\ServerWithDocumentDB.pdb

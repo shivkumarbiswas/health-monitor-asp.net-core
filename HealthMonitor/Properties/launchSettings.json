@@ -3,7 +3,7 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:64343/",
+      "applicationUrl": "http://localhost:56146/",
       "sslPort": 0
     }
   },
@@ -11,6 +11,7 @@
     "IIS Express": {
       "commandName": "IISExpress",
       "launchBrowser": true,
+      "launchUrl": "dashboard",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
@@ -18,10 +19,11 @@
     "HealthMonitor": {
       "commandName": "Project",
       "launchBrowser": true,
+      "launchUrl": "dashboard",
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       },
-      "applicationUrl": "http://localhost:64344/"
+      "applicationUrl": "http://localhost:56147/"
     }
   }
 }
