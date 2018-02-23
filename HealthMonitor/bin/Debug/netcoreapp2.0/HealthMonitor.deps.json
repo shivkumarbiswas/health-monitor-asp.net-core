@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "5b9d6366eeb88af9105d93fc5201e9f04bfab672"
+    "signature": "4bac6bdd97d309eabe179f81d0f0ff603ae6b773"
   },
   "compilationOptions": {
     "defines": [
@@ -23,10 +23,12 @@
     ".NETCoreApp,Version=v2.0": {
       "HealthMonitor/1.0.0": {
         "dependencies": {
+          "Kendo.Mvc": "2016.2.616",
           "Microsoft.AspNetCore.All": "2.0.5",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.2",
-          "MongoDB.Driver": "2.5.0"
+          "MongoDB.Driver": "2.5.0",
+          "NuGet.CommandLine": "4.5.1"
         },
         "runtime": {
           "HealthMonitor.dll": {}
@@ -59,6 +61,81 @@
         },
         "compile": {
           "lib/netstandard1.3/DnsClient.dll": {}
+        }
+      },
+      "Kendo.Mvc/2016.2.616": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Mvc": "2.0.2",
+          "Microsoft.AspNetCore.Mvc.Core": "2.0.2",
+          "Microsoft.AspNetCore.Mvc.Formatters.Xml": "2.0.2",
+          "Microsoft.AspNetCore.Mvc.TagHelpers": "2.0.2",
+          "Microsoft.AspNetCore.Routing": "2.0.1",
+          "Microsoft.Extensions.PlatformAbstractions": "1.1.0",
+          "System.Data.Common": "4.0.1-rc2-24027",
+          "System.Diagnostics.TraceSource": "4.0.0",
+          "System.Linq.Queryable": "4.0.1"
+        },
+        "runtime": {
+          "lib/netcoreapp1.0/Kendo.Mvc.dll": {}
+        },
+        "resources": {
+          "lib/netcoreapp1.0/bg-BG/Kendo.Mvc.resources.dll": {
+            "locale": "bg-BG"
+          },
+          "lib/netcoreapp1.0/cs-CZ/Kendo.Mvc.resources.dll": {
+            "locale": "cs-CZ"
+          },
+          "lib/netcoreapp1.0/da-DK/Kendo.Mvc.resources.dll": {
+            "locale": "da-DK"
+          },
+          "lib/netcoreapp1.0/de-DE/Kendo.Mvc.resources.dll": {
+            "locale": "de-DE"
+          },
+          "lib/netcoreapp1.0/es-ES/Kendo.Mvc.resources.dll": {
+            "locale": "es-ES"
+          },
+          "lib/netcoreapp1.0/fr-CA/Kendo.Mvc.resources.dll": {
+            "locale": "fr-CA"
+          },
+          "lib/netcoreapp1.0/fr-FR/Kendo.Mvc.resources.dll": {
+            "locale": "fr-FR"
+          },
+          "lib/netcoreapp1.0/it-IT/Kendo.Mvc.resources.dll": {
+            "locale": "it-IT"
+          },
+          "lib/netcoreapp1.0/nl-NL/Kendo.Mvc.resources.dll": {
+            "locale": "nl-NL"
+          },
+          "lib/netcoreapp1.0/pl-PL/Kendo.Mvc.resources.dll": {
+            "locale": "pl-PL"
+          },
+          "lib/netcoreapp1.0/pt-BR/Kendo.Mvc.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/netcoreapp1.0/pt-PT/Kendo.Mvc.resources.dll": {
+            "locale": "pt-PT"
+          },
+          "lib/netcoreapp1.0/ro-RO/Kendo.Mvc.resources.dll": {
+            "locale": "ro-RO"
+          },
+          "lib/netcoreapp1.0/ru-RU/Kendo.Mvc.resources.dll": {
+            "locale": "ru-RU"
+          },
+          "lib/netcoreapp1.0/sv-SE/Kendo.Mvc.resources.dll": {
+            "locale": "sv-SE"
+          },
+          "lib/netcoreapp1.0/tr-TR/Kendo.Mvc.resources.dll": {
+            "locale": "tr-TR"
+          },
+          "lib/netcoreapp1.0/uk-UA/Kendo.Mvc.resources.dll": {
+            "locale": "uk-UA"
+          },
+          "lib/netcoreapp1.0/zh-CN/Kendo.Mvc.resources.dll": {
+            "locale": "zh-CN"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp1.0/Kendo.Mvc.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -2566,6 +2643,7 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "NuGet.CommandLine/4.5.1": {},
       "NuGet.Frameworks/4.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.0"
@@ -3061,6 +3139,18 @@
           "System.IO": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Text.Encoding": "4.3.0"
+        }
+      },
+      "System.Data.Common/4.0.1-rc2-24027": {
+        "dependencies": {
+          "System.Collections": "4.3.0",
+          "System.Globalization": "4.3.0",
+          "System.IO": "4.3.0",
+          "System.Resources.ResourceManager": "4.3.0",
+          "System.Runtime": "4.3.0",
+          "System.Runtime.Extensions": "4.3.0",
+          "System.Text.RegularExpressions": "4.3.0",
+          "System.Threading.Tasks": "4.3.0"
         }
       },
       "System.Data.SqlClient/4.4.0": {
@@ -4462,6 +4552,13 @@
       "path": "dnsclient/1.0.7",
       "hashPath": "dnsclient.1.0.7.nupkg.sha512"
     },
+    "Kendo.Mvc/2016.2.616": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-GTMSQaW/erPmIG7C4Nhe+TWJlvHbfpwGKF8mmP0UIBw3FoW79dOGuboaYqmFWo/mlTlGCgOs+qvBLLtKNsCO5g==",
+      "path": "kendo.mvc/2016.2.616",
+      "hashPath": "kendo.mvc.2016.2.616.nupkg.sha512"
+    },
     "Libuv/1.10.0": {
       "type": "package",
       "serviceable": true,
@@ -5701,6 +5798,13 @@
       "path": "newtonsoft.json.bson/1.0.1",
       "hashPath": "newtonsoft.json.bson.1.0.1.nupkg.sha512"
     },
+    "NuGet.CommandLine/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VsdQcJMDf+hG8YU0kvdWhfuGXaw2yaZ+0bbXlJ0e7cXxhtkgj3tMucPmw2i4ovqh0x6N5mw1ssW8a6AIXOmYQg==",
+      "path": "nuget.commandline/4.5.1",
+      "hashPath": "nuget.commandline.4.5.1.nupkg.sha512"
+    },
     "NuGet.Frameworks/4.0.0": {
       "type": "package",
       "serviceable": true,
@@ -6036,6 +6140,13 @@
       "sha512": "sha512-DHDrIxiqk1h03m6khKWV2X8p/uvN79rgSqpilL6uzpmSfxfU5ng8VcPtW4qsDsQDHiTv6IPV9TmD5M/vElPNLg==",
       "path": "system.console/4.3.0",
       "hashPath": "system.console.4.3.0.nupkg.sha512"
+    },
+    "System.Data.Common/4.0.1-rc2-24027": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lRXa2KTxiXF9LYhisFYWqokvtkV662ROEVJbtRG4owk/7PRvyV92gZLaDykYuNxtnscesaVIWDRWkfFfaxXmqA==",
+      "path": "system.data.common/4.0.1-rc2-24027",
+      "hashPath": "system.data.common.4.0.1-rc2-24027.nupkg.sha512"
     },
     "System.Data.SqlClient/4.4.0": {
       "type": "package",

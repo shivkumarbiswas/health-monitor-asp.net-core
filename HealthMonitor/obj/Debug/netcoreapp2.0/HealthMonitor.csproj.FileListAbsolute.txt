@@ -20,3 +20,14 @@ C:\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.AssemblyInfoInputs.cache
 C:\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.AssemblyInfo.cs
 C:\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.dll
 C:\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.pdb
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\bin\Debug\netcoreapp2.0\HealthMonitor.deps.json
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\bin\Debug\netcoreapp2.0\HealthMonitor.runtimeconfig.json
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\bin\Debug\netcoreapp2.0\HealthMonitor.runtimeconfig.dev.json
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\bin\Debug\netcoreapp2.0\HealthMonitor.dll
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\bin\Debug\netcoreapp2.0\HealthMonitor.pdb
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.csprojResolveAssemblyReference.cache
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.csproj.CoreCompileInputs.cache
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.AssemblyInfoInputs.cache
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.AssemblyInfo.cs
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.dll
+C:\Users\P10416812\source\repos\HealthMonitor\HealthMonitor\obj\Debug\netcoreapp2.0\HealthMonitor.pdb
