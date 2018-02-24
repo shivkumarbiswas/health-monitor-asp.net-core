@@ -45,7 +45,6 @@ namespace HealthMonitor.Controllers
                 
                 var dataPoints = new List<DataPoint>();
 
-
                 var servs = serviceStatusGroup.ServiceStatuses
                                 .GroupBy(s => new { s.ServiceId })
                                 .Select(g => new
@@ -59,13 +58,27 @@ namespace HealthMonitor.Controllers
                     var dataPoint = new DataPoint()
                     {
                         y = service.Count,
-                        label = "MicroService " + service.ServiceId
+                        label = service.ServiceId
                     };
 
                     dataPoints.Add(dataPoint);
                 }
 
-                ViewBag.DataPoints[serviceStatusGroup.ErrorLevel] = JsonConvert.SerializeObject(dataPoints);
+                foreach (var s in services)
+                {
+                    if (!dataPoints.Any(d => d.label.Contains(s)))
+                    {
+                        var dataPoint = new DataPoint()
+                        {
+                            y = 0,
+                            label = s
+                        };
+
+                        dataPoints.Add(dataPoint);
+                    }
+                }
+
+                ViewBag.DataPoints[serviceStatusGroup.ErrorLevel] = JsonConvert.SerializeObject(dataPoints.OrderBy(d=>d.label));
             }
         }
     }
